@@ -22,7 +22,7 @@ ump-cli.exe monitor --action get --group g1 --type metrics --cpath /home/xanthus
 ump-cli.exe monitor --action set --group g1 --auto true --freq 5 --cpath /home/xanthus/ump/collector  
 #### 停止自动采集
 ump-cli.exe monitor --action delete --jobid 720d453f80eb11edaba6a4fc7733a40c  
-# release模块命令示例
+### release模块命令示例
 #### 发布应用
 ump-cli.exe release --action set --name demo-app --tag 1.0 --src d:\demo-app.jar  
 #### 查询部署
@@ -30,7 +30,7 @@ ump-cli.exe release --action get
 ump-cli.exe release --action get --name demo-app  
 #### 删除部署
 ump-cli.exe release --action delete --name demo-app --tag 1.0  
-# deploy模块命令示例
+### deploy模块命令示例
 #### 组g1的所有节点部署demo-app:1.0  
 ump-cli.exe deploy --action set --group g1 --name demo-deploy --app demo-app:1.0 --dest /tmp/  
 #### 查看demo-deploy状态
