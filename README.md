@@ -31,7 +31,7 @@ ump-cli.exe release --action get --name demo-app
 #### 删除部署
 ump-cli.exe release --action delete --name demo-app --tag 1.0  
 ### deploy模块命令示例
-#### 组g1的所有节点部署demo-app:1.0  
+#### g1组的所有节点部署demo-app:1.0  
 ump-cli.exe deploy --action set --group g1 --name demo-deploy --app demo-app:1.0 --dest /tmp/  
 #### 查看demo-deploy状态
 ump-cli.exe deploy --action get --name demo-deploy  
@@ -39,7 +39,7 @@ ump-cli.exe deploy --action get --name demo-deploy --detail true
 ump-cli.exe deploy --action get --name demo-deploy --history true  
 #### 删除demo-deploy
 ump-cli.exe deploy --action delete --name demo-deploy  
-# instance模块命令示例
+### instance模块命令示例
 #### 查看实例部署状态
 ump-cli.exe instance --action get --deploy-name demo-deploy
 #### 部署启停控制
