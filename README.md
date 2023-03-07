@@ -1,6 +1,8 @@
 # UMP客户端
 ump客户端  
 版本2.6
+## 客户端配置
+ump.cnf 文件中配置ump服务器地址  
 ## 命令示例
 ``` ump-cli.exe [模块名称] --action [set/get/delete] --参数1 --参数2.. ```
 ### hosts模块命令示例
